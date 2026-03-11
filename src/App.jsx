@@ -55,7 +55,7 @@ const App = () => {
             role: "Founder & Managing Director",
             bio: "Executivo sênior com mais de 20 anos em Transformação de RH e Tecnologia (ex-IBM, Degreed e Santander). Especialista em ecossistemas Cloud, IA organizacional e estratégias de capital humano C-Level.",
             linkedin: "https://www.linkedin.com/in/mmramos2406/",
-            image: "/marcelo.png" 
+            image: "/marcelo.jpeg" 
           },
           {
             name: "João \nDel Vechio",
