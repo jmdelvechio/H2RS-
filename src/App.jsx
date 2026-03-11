@@ -39,6 +39,33 @@ const App = () => {
         stat2: 'Grandes Projetos',
         stat3: 'Visão Tech & People'
       },
+      founders: {
+        title: 'Nossa Liderança',
+        desc: 'Conheça o time de especialistas que impulsiona a transformação executiva e o sucesso sustentável corporativo.',
+        team: [
+          {
+            name: "Amanda Celebroni",
+            role: "Co-Founder & Co-CEO",
+            bio: "Com mais de 15 anos de atuação global em Governança de TI e Qualidade (ex-Novartis), lidera estratégias de mitigação de riscos e garantia da qualidade em implementações corporativas complexas.",
+            linkedin: "https://www.linkedin.com/in/amanda-celebroni-432a68b5/",
+            image: "/amanda.jpeg" // You can replace this with the exact filename if different
+          },
+          {
+            name: "Marcelo Martins Ramos",
+            role: "Founder & Managing Director",
+            bio: "Executivo sênior com mais de 20 anos em Transformação de RH e Tecnologia (ex-IBM, Degreed e Santander). Especialista em ecossistemas Cloud, IA organizacional e estratégias de capital humano C-Level.",
+            linkedin: "https://www.linkedin.com/in/mmramos2406/",
+            image: "/marcelo.png" 
+          },
+          {
+            name: "João \nDel Vechio",
+            role: "Co-Founder & Sr. Director",
+            bio: "Líder global em Customer Success e RH com mais de 15 anos de mercado (ex-Degreed, Vale). Experiente em gerenciar inovações e transformar a jornada do colaborador escalando inteligência artificial.",
+            linkedin: "https://www.linkedin.com/in/joaovechio/",
+            image: "/joao.png"
+          }
+        ]
+      },
       servicesSection: {
         title: 'Nossas Soluções',
         desc: 'Atuamos de ponta a ponta, desde a estratégia até a implementação tecnológica focando sempre no impacto de negócio.',
@@ -123,6 +150,33 @@ const App = () => {
         desc: <>We are a consulting firm specialized in digital and human transformation. <strong>H2RS</strong> connects <strong>H</strong>uman (HR) with <strong>R</strong>esources and Strategic <strong>S</strong>olutions via robust technology.</>,
         stat1: 'Years Experience', stat2: 'Enterprise Projects', stat3: 'Tech/People Vision'
       },
+      founders: {
+        title: 'Our Leadership',
+        desc: 'Meet the team of elite experts driving executive transformation and sustainable corporate success.',
+        team: [
+          {
+            name: "Amanda Celebroni",
+            role: "Co-Founder & Co-CEO",
+            bio: "With over 15 years of global IT Governance and Quality experience (ex-Novartis), leads risk mitigation and quality assurance strategies in complex enterprise implementations.",
+            linkedin: "https://www.linkedin.com/in/amanda-celebroni-432a68b5/",
+            image: "/amanda.jpeg"
+          },
+          {
+            name: "Marcelo Martins Ramos",
+            role: "Founder & Managing Director",
+            bio: "Senior executive with 20+ years in HR Transformation and Technology (ex-IBM, Degreed, Santander). Specialist in Cloud ecosystems, organizational AI, and C-Level human capital strategies.",
+            linkedin: "https://www.linkedin.com/in/mmramos2406/",
+            image: "/marcelo.png"
+          },
+          {
+            name: "João \nDel Vechio",
+            role: "Co-Founder & Sr. Director",
+            bio: "Global Customer Success and HR leader with 15+ years of experience (ex-Degreed, Vale). Focused on enterprise innovation and scaling employee journey transformation through Artificial Intelligence.",
+            linkedin: "https://www.linkedin.com/in/joaovechio/",
+            image: "/joao.png"
+          }
+        ]
+      },
       servicesSection: {
         title: 'Core Solutions', desc: 'End-to-end operation, from boardroom strategy to complex global technological deployments.',
         items: [
@@ -157,6 +211,33 @@ const App = () => {
       about: {
         title: 'Sobre H2RS', desc: <>Somos consultores expertos en transformación. <strong>H2RS</strong> conecta lo <strong>H</strong>umano con <strong>R</strong>ecursos y <strong>S</strong>oluciones pivotales tecnológicamente.</>,
         stat1: 'Años de Experiencia', stat2: 'Proyectos Enterprise', stat3: 'Visión Integral'
+      },
+      founders: {
+        title: 'Nuestro Liderazgo',
+        desc: 'Conozca al equipo de expertos que impulsa la transformación ejecutiva y el éxito empresarial sostenible.',
+        team: [
+          {
+            name: "Amanda Celebroni",
+            role: "Co-Founder & Co-CEO",
+            bio: "Con más de 15 años de experiencia global en Gobierno y Calidad de TI (ex-Novartis), lidera estrategias de mitigación de riesgos y aseguramiento de calidad en implementaciones complejas.",
+            linkedin: "https://www.linkedin.com/in/amanda-celebroni-432a68b5/",
+            image: "/amanda.jpeg"
+          },
+          {
+            name: "Marcelo Martins Ramos",
+            role: "Founder & Managing Director",
+            bio: "Ejecutivo sénior con más de 20 años en Transformación de RRHH y Tecnología (ex-IBM, Degreed Santander). Especialista en ecosistemas Cloud, IA organizacional y estrategias C-Level.",
+            linkedin: "https://www.linkedin.com/in/mmramos2406/",
+            image: "/marcelo.png"
+          },
+          {
+            name: "João \nDel Vechio",
+            role: "Co-Founder & Sr. Director",
+            bio: "Líder global en Customer Success y RRHH con más de 15 años de experiencia (ex-Degreed, Vale). Enfocado en escalar la innovación y transformar la experiencia del empleado usando IA.",
+            linkedin: "https://www.linkedin.com/in/joaovechio/",
+            image: "/joao.png"
+          }
+        ]
       },
       servicesSection: {
         title: 'Soluciones Core', desc: 'Despliegues end-to-end: desde la estrategia directiva hasta implementaciones globales hiper-complejas.',
@@ -317,8 +398,42 @@ const App = () => {
         </div>
       </section>
 
+      {/* FOUNDERS SECTION (Google Aesthetic cards) */}
+      <section id="lideranca" className="py-24 bg-[#F8FAFC]">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-black mb-6 tracking-tight text-slate-900">{t.founders.title}</h2>
+            <p className="text-xl text-slate-600 leading-relaxed font-light max-w-2xl mx-auto">
+              {t.founders.desc}
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            {t.founders.team.map((founder, index) => (
+              <div key={index} className="bg-white rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.03)] hover:shadow-[0_20px_50px_rgb(0,0,0,0.08)] transition-all duration-500 overflow-hidden flex flex-col group">
+                <div className="aspect-[4/5] w-full bg-slate-100 relative overflow-hidden">
+                  <img src={founder.image} alt={founder.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                  {/* Subtle gradient overlay at bottom of image to ensure smooth transition */}
+                  <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-black/5 to-transparent"></div>
+                </div>
+                <div className="p-8 flex-grow flex flex-col">
+                  <h3 className="text-2xl font-black mb-1 text-slate-900 tracking-tight whitespace-pre-line">{founder.name}</h3>
+                  <p className="text-slate-500 font-bold uppercase tracking-wider text-xs mb-4">{founder.role}</p>
+                  <p className="text-slate-600 leading-relaxed text-sm font-light mb-6 flex-grow">
+                    {founder.bio}
+                  </p>
+                  <a href={founder.linkedin} target="_blank" rel="noopener noreferrer" className="inline-block mt-auto">
+                    <Linkedin className="w-6 h-6 text-[#2E5BFF] hover:text-[#0d34c1] transition-colors" />
+                  </a>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* SERVICES SECTION (Soft pill cards) */}
-      <section id="servicos" className="py-32 bg-[#F8FAFC]">
+      <section id="servicos" className="py-32 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-20 max-w-2xl">
             <h2 className="text-4xl md:text-5xl font-black tracking-tight mb-6 text-slate-900">{t.servicesSection.title}</h2>
@@ -442,7 +557,7 @@ const App = () => {
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-12 mb-12 border-b border-slate-800 pb-16">
           <div className="col-span-1 md:col-span-2">
             <a href="#" className="inline-block hover:opacity-90 transition-opacity">
-              <img src="/logo-h2rs.png" alt="H2RS Logo" className="h-10 w-auto object-contain mb-6 filter invert brightness-0" />
+              <img src="/logo-h2rs.png" alt="H2RS Logo" className="h-10 w-auto object-contain mb-6 bg-white rounded-lg p-2" />
             </a>
             <p className="text-sm max-w-sm mb-6 leading-relaxed font-light text-slate-500">
               {t.footer.desc}
