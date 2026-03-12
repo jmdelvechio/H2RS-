@@ -166,7 +166,7 @@ const App = () => {
             role: "Co-Founder & Co-CEO",
             bio: "Senior executive with 20+ years in HR Transformation and Technology (ex-IBM, Degreed, Santander). Specialist in Cloud ecosystems, organizational AI, and C-Level human capital strategies.",
             linkedin: "https://www.linkedin.com/in/mmramos2406/",
-            image: "/marcelo.png"
+            image: "/marcelo.jpeg"
           },
           {
             name: "João \nDel Vechio",
@@ -228,7 +228,7 @@ const App = () => {
             role: "Co-Founder & Co-CEO",
             bio: "Ejecutivo sénior con más de 20 años en Transformación de RRHH y Tecnología (ex-IBM, Degreed Santander). Especialista en ecosistemas Cloud, IA organizacional y estrategias C-Level.",
             linkedin: "https://www.linkedin.com/in/mmramos2406/",
-            image: "/marcelo.png"
+            image: "/marcelo.jpeg"
           },
           {
             name: "João \nDel Vechio",
