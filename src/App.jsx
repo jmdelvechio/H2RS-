@@ -52,15 +52,15 @@ const App = () => {
           },
           {
             name: "Marcelo Martins Ramos",
-            role: "Founder & Managing Director",
+            role: "Co-Founder & Co-CEO",
             bio: "Executivo sênior com mais de 20 anos em Transformação de RH e Tecnologia (ex-IBM, Degreed e Santander). Especialista em ecossistemas Cloud, IA organizacional e estratégias de capital humano C-Level.",
             linkedin: "https://www.linkedin.com/in/mmramos2406/",
             image: "/marcelo.jpeg" 
           },
           {
             name: "João \nDel Vechio",
-            role: "Co-Founder & Sr. Director",
-            bio: "Líder global em Customer Success e RH com mais de 15 anos de mercado (ex-Degreed, Vale). Experiente em gerenciar inovações e transformar a jornada do colaborador escalando inteligência artificial.",
+            role: "Co-Founder & COO",
+            bio: "Líder global em Transformação e enablement de RH, adoção e Customer Success com mais de 15 anos de mercado (ex-Degreed, Vale, Smurfit WestRock). Experiente em gerenciar inovações e transformar a jornada do colaborador escalando inteligência artificial.",
             linkedin: "https://www.linkedin.com/in/joaovechio/",
             image: "/joao.png"
           }
@@ -163,15 +163,15 @@ const App = () => {
           },
           {
             name: "Marcelo Martins Ramos",
-            role: "Founder & Managing Director",
+            role: "Co-Founder & Co-CEO",
             bio: "Senior executive with 20+ years in HR Transformation and Technology (ex-IBM, Degreed, Santander). Specialist in Cloud ecosystems, organizational AI, and C-Level human capital strategies.",
             linkedin: "https://www.linkedin.com/in/mmramos2406/",
             image: "/marcelo.png"
           },
           {
             name: "João \nDel Vechio",
-            role: "Co-Founder & Sr. Director",
-            bio: "Global Customer Success and HR leader with 15+ years of experience (ex-Degreed, Vale). Focused on enterprise innovation and scaling employee journey transformation through Artificial Intelligence.",
+            role: "Co-Founder & COO",
+            bio: "Global HR transformation and enablement, adoption and Customer Success leader with 15+ years of experience (ex-Degreed, Vale). Focused on enterprise innovation and scaling employee journey transformation through Artificial Intelligence.",
             linkedin: "https://www.linkedin.com/in/joaovechio/",
             image: "/joao.png"
           }
@@ -225,15 +225,15 @@ const App = () => {
           },
           {
             name: "Marcelo Martins Ramos",
-            role: "Founder & Managing Director",
+            role: "Co-Founder & Co-CEO",
             bio: "Ejecutivo sénior con más de 20 años en Transformación de RRHH y Tecnología (ex-IBM, Degreed Santander). Especialista en ecosistemas Cloud, IA organizacional y estrategias C-Level.",
             linkedin: "https://www.linkedin.com/in/mmramos2406/",
             image: "/marcelo.png"
           },
           {
             name: "João \nDel Vechio",
-            role: "Co-Founder & Sr. Director",
-            bio: "Líder global en Customer Success y RRHH con más de 15 años de experiencia (ex-Degreed, Vale). Enfocado en escalar la innovación y transformar la experiencia del empleado usando IA.",
+            role: "Co-Founder & COO",
+            bio: "Líder global en Transformación y enablement de HHRR, adopción y Customer Success con más de 15 años de experiencia (ex-Degreed, Vale). Enfocado en escalar la innovación y transformar la experiencia del empleado usando IA.",
             linkedin: "https://www.linkedin.com/in/joaovechio/",
             image: "/joao.png"
           }
