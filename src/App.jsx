@@ -285,7 +285,7 @@ const App = () => {
           
           {/* Logo on Left for Mobile, Hidden on Desktop */}
           <a href="#" className="flex md:hidden items-center z-10 w-24" title="Início">
-            <img src="/logo-h2rs.png" alt="H2RS Logo" className="h-10 w-auto object-contain" />
+            <img src="/logo-h2rs.png" alt="H2RS Logo" className="h-14 w-auto object-contain" />
           </a>
           
           {/* Left spacer for Desktop symmetry relative to Logo */}
@@ -312,7 +312,7 @@ const App = () => {
 
           {/* Separated Logo on Right (Google Layout) */}
           <a href="#" className="hidden md:flex items-center justify-end z-10 hover:opacity-80 transition-opacity w-32" title="Início">
-            <img src="/logo-h2rs.png" alt="H2RS Logo" className="h-10 lg:h-12 w-auto object-contain" />
+            <img src="/logo-h2rs.png" alt="H2RS Logo" className="h-14 lg:h-16 w-auto object-contain" />
           </a>
 
           {/* Mobile Menu Button - Right */}
@@ -559,7 +559,7 @@ const App = () => {
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-8 md:gap-12 mb-12 border-b border-slate-800 pb-12 md:pb-16">
           <div className="col-span-1 md:col-span-2">
             <a href="#" className="inline-block hover:opacity-90 transition-opacity">
-              <img src="/logo-h2rs.png" alt="H2RS Logo" className="h-10 w-auto object-contain mb-6 bg-white rounded-lg p-2" />
+              <img src="/logo-h2rs.png" alt="H2RS Logo" className="h-16 w-auto object-contain mb-6 bg-white rounded-lg p-3" />
             </a>
             <p className="text-sm max-w-sm mb-6 leading-relaxed font-light text-slate-500">
               {t.footer.desc}
