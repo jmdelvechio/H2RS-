@@ -20,7 +20,7 @@ const App = () => {
   const translations = {
     pt: {
       nav: {
-        about: 'Sobre', services: 'Serviços', diffs: 'Diferenciais', contact: 'Contato', cta: 'Falar com Consultor'
+        about: 'Sobre', leadership: 'Liderança', services: 'Serviços', diffs: 'Diferenciais', contact: 'Contato', cta: 'Falar com Consultor'
       },
       hero: {
         badge: 'Consultoria Estratégica',
@@ -138,7 +138,7 @@ const App = () => {
       whatsappMsg: 'Olá! Sou executivo(a) e gostaria de agendar uma reunião de diagnóstico com a H2RS.'
     },
     en: {
-      nav: { about: 'About', services: 'Services', diffs: 'Why Us', contact: 'Contact', cta: 'Consult an Expert' },
+      nav: { about: 'About', leadership: 'Leadership', services: 'Services', diffs: 'Why Us', contact: 'Contact', cta: 'Consult an Expert' },
       hero: {
         badge: 'Strategic Consulting', title1: 'Digital & Human', title2: 'Transformation',
         desc: 'We support large enterprises in connecting technology, HR strategy, and governance to scale results and build the future of work.',
@@ -201,7 +201,7 @@ const App = () => {
       whatsappMsg: 'Hello, I am reaching out to schedule an executive consultation with H2RS.'
     },
     es: {
-      nav: { about: 'Nosotros', services: 'Soluciones', diffs: 'Por qué Elegirnos', contact: 'Contacto', cta: 'Consultar Experto' },
+      nav: { about: 'Nosotros', leadership: 'Liderazgo', services: 'Soluciones', diffs: 'Por qué Elegirnos', contact: 'Contacto', cta: 'Consultar Experto' },
       hero: {
         badge: 'Consultoría Estratégica', title1: 'Transformación', title2: 'Digital y Humana',
         desc: 'Potenciamos a grandes empresas conectando tecnología, estrategia de RRHH y gobernanza para escalar resultados y moldear el futuro del trabajo.',
@@ -294,6 +294,7 @@ const App = () => {
           {/* Center Glass Pill - Desktop Nav */}
           <div className="hidden md:flex items-center space-x-2 px-6 lg:px-10 h-14 bg-white/70 backdrop-blur-2xl rounded-full border border-white/50 shadow-[0_4px_30px_rgb(0,0,0,0.06)] backdrop-saturate-[180%]">
             <a href="#sobre" className="text-[13px] font-bold tracking-wide text-slate-900 hover:text-blue-600 uppercase transition-colors px-3 py-2 rounded-full hover:bg-slate-100/50">{t.nav.about}</a>
+            <a href="#lideranca" className="text-[13px] font-bold tracking-wide text-slate-900 hover:text-blue-600 uppercase transition-colors px-3 py-2 rounded-full hover:bg-slate-100/50">{t.nav.leadership}</a>
             <a href="#servicos" className="text-[13px] font-bold tracking-wide text-slate-900 hover:text-blue-600 uppercase transition-colors px-3 py-2 rounded-full hover:bg-slate-100/50">{t.nav.services}</a>
             <a href="#diferenciais" className="text-[13px] font-bold tracking-wide text-slate-900 hover:text-blue-600 uppercase transition-colors px-3 py-2 rounded-full hover:bg-slate-100/50">{t.nav.diffs}</a>
             <a href="#contato" className="text-[13px] font-bold tracking-wide text-slate-900 hover:text-blue-600 uppercase transition-colors px-3 py-2 rounded-full hover:bg-slate-100/50">{t.nav.contact}</a>
@@ -327,6 +328,7 @@ const App = () => {
           <div className="md:hidden absolute top-full left-0 w-full mt-4 px-4 z-50">
              <div className="bg-white/95 backdrop-blur-2xl rounded-3xl p-8 flex flex-col space-y-5 shadow-[0_20px_40px_rgb(0,0,0,0.1)] border border-white/50">
                 <a href="#sobre" className="text-slate-900 font-bold text-lg" onClick={toggleMenu}>{t.nav.about}</a>
+                <a href="#lideranca" className="text-slate-900 font-bold text-lg" onClick={toggleMenu}>{t.nav.leadership}</a>
                 <a href="#servicos" className="text-slate-900 font-bold text-lg" onClick={toggleMenu}>{t.nav.services}</a>
                 <a href="#diferenciais" className="text-slate-900 font-bold text-lg" onClick={toggleMenu}>{t.nav.diffs}</a>
                 <a href="#contato" className="text-slate-900 font-bold text-lg" onClick={toggleMenu}>{t.nav.contact}</a>
@@ -341,10 +343,10 @@ const App = () => {
       </nav>
 
       {/* HERO SECTION (Google Aesthetic: White Bg, Massive Text, Fluid Vector Shape) */}
-      <section className="relative pt-44 pb-32 md:pt-60 md:pb-40 overflow-hidden bg-white">
+      <section className="relative pt-32 pb-20 md:pt-60 md:pb-40 overflow-hidden bg-white">
         
         {/* Right Abstract Vector Decor */}
-        <div className="absolute top-0 right-0 w-full md:w-[65%] h-full opacity-[0.85] pointer-events-none origin-top-right transform translate-x-20 -translate-y-20 scale-125 md:scale-100">
+        <div className="absolute top-0 right-0 w-full md:w-[65%] h-full opacity-[0.4] md:opacity-[0.85] pointer-events-none origin-top-right transform translate-x-20 -translate-y-20 scale-125 md:scale-100">
            <svg viewBox="0 0 800 800" className="w-full h-full object-cover">
              {/* Deep Blue Shape */}
              <path fill="#2E5BFF" d="M400,0 C650,50 800,200 800,400 C800,600 650,750 400,800 C150,800 0,650 0,400 C0,150 150,0 400,0 Z" opacity="0.9" style={{ transform: 'scale(1.2) translate(100px, -50px)' }}/>
@@ -355,7 +357,7 @@ const App = () => {
 
         <div className="max-w-[1400px] mx-auto px-6 relative z-10 grid md:grid-cols-12 gap-12 items-center">
           <div className="md:col-span-8 lg:col-span-7">
-            <h1 className="text-6xl md:text-8xl lg:text-[7rem] font-black tracking-tighter leading-[0.95] text-slate-900 mb-8 font-sans">
+            <h1 className="text-4xl sm:text-6xl md:text-8xl lg:text-[7rem] font-black tracking-tighter leading-[0.95] text-slate-900 mb-8 font-sans">
               <span className="block">{t.hero.title1}</span>
               <span className="text-[#F18EA4]">{t.hero.title2}</span>
             </h1>
@@ -372,16 +374,16 @@ const App = () => {
       </section>
 
       {/* ABOUT SECTION (Clean Typography) */}
-      <section id="sobre" className="py-24 bg-white border-t border-slate-100">
+      <section id="sobre" className="py-16 md:py-24 bg-white border-t border-slate-100">
         <div className="max-w-7xl mx-auto px-6">
           <div className="max-w-3xl mb-16">
             <h2 className="text-4xl md:text-5xl font-black mb-10 text-slate-900 tracking-tight">{t.about.title}</h2>
-            <p className="text-2xl text-slate-600 leading-relaxed font-light">
+            <p className="text-xl md:text-2xl text-slate-600 leading-relaxed font-light">
               {t.about.desc}
             </p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-10 border-t border-slate-200 pt-16">
+          <div className="grid md:grid-cols-3 gap-6 md:gap-10 border-t border-slate-200 pt-10 md:pt-16">
             <div>
               <h3 className="text-6xl font-black text-[#2E5BFF] mb-4 tracking-tighter">+15</h3>
               <p className="text-slate-500 font-bold uppercase tracking-wider text-sm">{t.about.stat1}</p>
@@ -399,7 +401,7 @@ const App = () => {
       </section>
 
       {/* FOUNDERS SECTION (Google Aesthetic cards) */}
-      <section id="lideranca" className="py-24 bg-[#F8FAFC]">
+      <section id="lideranca" className="py-16 md:py-24 bg-[#F8FAFC]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-black mb-6 tracking-tight text-slate-900">{t.founders.title}</h2>
@@ -411,12 +413,12 @@ const App = () => {
           <div className="grid md:grid-cols-3 gap-8">
             {t.founders.team.map((founder, index) => (
               <div key={index} className="bg-white rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.03)] hover:shadow-[0_20px_50px_rgb(0,0,0,0.08)] transition-all duration-500 overflow-hidden flex flex-col group">
-                <div className="aspect-[4/5] w-full bg-slate-100 relative overflow-hidden">
+                <div className="aspect-[3/4] md:aspect-[4/5] w-full bg-slate-100 relative overflow-hidden">
                   <img src={founder.image} alt={founder.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
                   {/* Subtle gradient overlay at bottom of image to ensure smooth transition */}
                   <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-black/5 to-transparent"></div>
                 </div>
-                <div className="p-8 flex-grow flex flex-col">
+                <div className="p-6 md:p-8 flex-grow flex flex-col">
                   <h3 className="text-2xl font-black mb-1 text-slate-900 tracking-tight whitespace-pre-line">{founder.name}</h3>
                   <p className="text-slate-500 font-bold uppercase tracking-wider text-xs mb-4">{founder.role}</p>
                   <p className="text-slate-600 leading-relaxed text-sm font-light mb-6 flex-grow">
@@ -433,10 +435,10 @@ const App = () => {
       </section>
 
       {/* SERVICES SECTION (Soft pill cards) */}
-      <section id="servicos" className="py-32 bg-white">
+      <section id="servicos" className="py-20 md:py-32 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-20 max-w-2xl">
-            <h2 className="text-4xl md:text-5xl font-black tracking-tight mb-6 text-slate-900">{t.servicesSection.title}</h2>
+            <h2 className="text-3xl md:text-5xl font-black tracking-tight mb-6 text-slate-900">{t.servicesSection.title}</h2>
             <p className="text-xl text-slate-600 leading-relaxed font-light">
               {t.servicesSection.desc}
             </p>
@@ -444,7 +446,7 @@ const App = () => {
 
           <div className="grid md:grid-cols-2 gap-8">
             {t.servicesSection.items.map((service, index) => (
-              <div key={index} className="bg-white p-10 md:p-14 rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.03)] hover:shadow-[0_20px_50px_rgb(0,0,0,0.08)] transition-all duration-500 group">
+              <div key={index} className="bg-white p-8 md:p-14 rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.03)] hover:shadow-[0_20px_50px_rgb(0,0,0,0.08)] transition-all duration-500 group">
                 <div className="w-16 h-16 rounded-[1.25rem] bg-slate-50 flex items-center justify-center mb-8 transition-all duration-500">
                   {React.cloneElement(serviceIcons[index], { className: "w-8 h-8 text-slate-400 group-hover:text-[#2E5BFF] transition-colors" })}
                 </div>
@@ -467,31 +469,31 @@ const App = () => {
       </section>
 
       {/* DIFFERENTIALS SECTION */}
-      <section id="diferenciais" className="py-32 bg-white">
+      <section id="diferenciais" className="py-20 md:py-32 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-4xl md:text-5xl font-black mb-16 tracking-tight text-slate-900">{t.diffs.title}</h2>
           
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12 mb-12">
-            <div className="bg-[#f0f3fa] p-10 md:p-14 rounded-[2rem]">
+            <div className="bg-[#f0f3fa] p-8 md:p-14 rounded-[2rem]">
               <h4 className="font-black text-2xl md:text-3xl mb-4 text-slate-900 tracking-tight">{t.diffs.items[0].title}</h4>
               <p className="text-slate-600 text-lg leading-relaxed font-light">{t.diffs.items[0].desc}</p>
             </div>
-            <div className="bg-[#fcf3f5] p-10 md:p-14 rounded-[2rem]">
+            <div className="bg-[#fcf3f5] p-8 md:p-14 rounded-[2rem]">
               <h4 className="font-black text-2xl md:text-3xl mb-4 text-slate-900 tracking-tight">{t.diffs.items[1].title}</h4>
               <p className="text-slate-600 text-lg leading-relaxed font-light">{t.diffs.items[1].desc}</p>
             </div>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="p-8 rounded-[2rem] border border-slate-200">
+            <div className="p-6 md:p-8 rounded-[2rem] border border-slate-200">
               <h4 className="font-black text-xl mb-3 text-slate-900">{t.diffs.items[2].title}</h4>
               <p className="text-slate-600 text-base font-light">{t.diffs.items[2].desc}</p>
             </div>
-            <div className="p-8 rounded-[2rem] border border-slate-200">
+            <div className="p-6 md:p-8 rounded-[2rem] border border-slate-200">
               <h4 className="font-black text-xl mb-3 text-slate-900">{t.diffs.items[3].title}</h4>
               <p className="text-slate-600 text-base font-light">{t.diffs.items[3].desc}</p>
             </div>
-            <div className="p-8 rounded-[2rem] border border-slate-200">
+            <div className="p-6 md:p-8 rounded-[2rem] border border-slate-200">
               <h4 className="font-black text-xl mb-3 text-slate-900">{t.diffs.items[4].title}</h4>
               <p className="text-slate-600 text-base font-light">{t.diffs.items[4].desc}</p>
             </div>
@@ -500,7 +502,7 @@ const App = () => {
       </section>
 
       {/* CONTACT SECTION */}
-      <section id="contato" className="py-32 bg-slate-50 border-t border-slate-200">
+      <section id="contato" className="py-20 md:py-32 bg-slate-50 border-t border-slate-200">
         <div className="max-w-3xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-black mb-6 tracking-tight text-slate-900">{t.contact.title}</h2>
@@ -509,7 +511,7 @@ const App = () => {
             </p>
           </div>
 
-          <form action="https://formsubmit.co/marcelo.martins@h2rsconsulting.com" method="POST" className="space-y-6 bg-white p-10 md:p-14 rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.03)] border border-slate-100">
+          <form action="https://formsubmit.co/marcelo.martins@h2rsconsulting.com" method="POST" className="space-y-6 bg-white p-6 sm:p-10 md:p-14 rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.03)] border border-slate-100">
             <input type="hidden" name="_subject" value="Novo Contato (Executivo) via Site H2RS!" />
             <input type="hidden" name="_template" value="table" />
             <input type="hidden" name="_captcha" value="false" />
@@ -544,7 +546,7 @@ const App = () => {
         href={whatsappLink} 
         target="_blank" 
         rel="noopener noreferrer" 
-        className="fixed bottom-8 right-8 bg-[#25D366] text-white p-4 rounded-full shadow-[0_8px_30px_rgb(37,211,102,0.4)] hover:shadow-[0_12px_40px_rgb(37,211,102,0.5)] transition-all hover:-translate-y-1 z-50 flex items-center justify-center group"
+        className="fixed bottom-6 right-6 md:bottom-8 md:right-8 bg-[#25D366] text-white p-4 rounded-full shadow-[0_8px_30px_rgb(37,211,102,0.4)] hover:shadow-[0_12px_40px_rgb(37,211,102,0.5)] transition-all hover:-translate-y-1 z-50 flex items-center justify-center group"
         title="WhatsApp Executivo"
       >
         <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -554,7 +556,7 @@ const App = () => {
 
       {/* FOOTER */}
       <footer className="bg-slate-900 text-slate-400 py-16">
-        <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-12 mb-12 border-b border-slate-800 pb-16">
+        <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-8 md:gap-12 mb-12 border-b border-slate-800 pb-12 md:pb-16">
           <div className="col-span-1 md:col-span-2">
             <a href="#" className="inline-block hover:opacity-90 transition-opacity">
               <img src="/logo-h2rs.png" alt="H2RS Logo" className="h-10 w-auto object-contain mb-6 bg-white rounded-lg p-2" />
@@ -584,8 +586,8 @@ const App = () => {
           <div>
             <h4 className="text-white font-bold tracking-wider uppercase text-xs mb-6">{t.footer.contactTitle}</h4>
             <ul className="space-y-4 text-sm font-light text-slate-500">
-              <li className="flex items-center"><MessageCircle className="w-4 h-4 mr-3" /> +55 11 98893-1802</li>
-              <li className="flex items-center"><Mail className="w-4 h-4 mr-3" /> marcelo.martins@h2rsconsulting.com</li>
+              <li className="flex items-start"><MessageCircle className="w-4 h-4 mr-3 mt-0.5 shrink-0" /> <span>+55 11 98893-1802</span></li>
+              <li className="flex items-start"><Mail className="w-4 h-4 mr-3 mt-0.5 shrink-0" /> <span className="break-all">marcelo.martins@h2rsconsulting.com</span></li>
             </ul>
           </div>
         </div>
