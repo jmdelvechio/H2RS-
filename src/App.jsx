@@ -166,7 +166,7 @@ const App = () => {
             role: "Co-Founder & Co-CEO",
             bio: "Senior executive with 20+ years in HR Transformation and Technology (ex-IBM, Degreed, Santander). Specialist in Cloud ecosystems, organizational AI, and C-Level human capital strategies.",
             linkedin: "https://www.linkedin.com/in/mmramos2406/",
-            image: "/marcelo.jpeg"
+            image: "/marcelo.png"
           },
           {
             name: "João \nDel Vechio",
@@ -228,7 +228,7 @@ const App = () => {
             role: "Co-Founder & Co-CEO",
             bio: "Ejecutivo sénior con más de 20 años en Transformación de RRHH y Tecnología (ex-IBM, Degreed Santander). Especialista en ecosistemas Cloud, IA organizacional y estrategias C-Level.",
             linkedin: "https://www.linkedin.com/in/mmramos2406/",
-            image: "/marcelo.jpeg"
+            image: "/marcelo.png"
           },
           {
             name: "João \nDel Vechio",
@@ -281,15 +281,15 @@ const App = () => {
       
       {/* NAVBAR (Google Inspired Floating Pill) */}
       <nav className={`fixed w-full z-50 transition-all duration-500 ease-[cubic-bezier(0.25,1,0.5,1)] ${scrolled ? 'top-4' : 'top-6'}`}>
-        <div className="max-w-[1400px] mx-auto px-6 h-16 flex justify-between items-center relative">
+        <div className="max-w-[1400px] mx-auto px-6 h-24 flex justify-between items-center relative">
           
           {/* Logo on Left for Mobile, Hidden on Desktop */}
-          <a href="#" className="flex md:hidden items-center z-10 w-24" title="Início">
-            <img src="/logo-h2rs.png" alt="H2RS Logo" className="h-14 w-auto object-contain" />
+          <a href="#" className="flex md:hidden items-center z-10 w-32" title="Início">
+            <img src="/logo-h2rs.png" alt="H2RS Logo" className="h-20 w-auto object-contain" />
           </a>
           
           {/* Left spacer for Desktop symmetry relative to Logo */}
-          <div className="hidden md:block w-32"></div>
+          <div className="hidden md:block w-40"></div>
 
           {/* Center Glass Pill - Desktop Nav */}
           <div className="hidden md:flex items-center space-x-2 px-6 lg:px-10 h-14 bg-white/70 backdrop-blur-2xl rounded-full border border-white/50 shadow-[0_4px_30px_rgb(0,0,0,0.06)] backdrop-saturate-[180%]">
@@ -311,8 +311,8 @@ const App = () => {
           </div>
 
           {/* Separated Logo on Right (Google Layout) */}
-          <a href="#" className="hidden md:flex items-center justify-end z-10 hover:opacity-80 transition-opacity w-32" title="Início">
-            <img src="/logo-h2rs.png" alt="H2RS Logo" className="h-14 lg:h-16 w-auto object-contain" />
+          <a href="#" className="hidden md:flex items-center justify-end z-10 hover:opacity-80 transition-opacity w-40" title="Início">
+            <img src="/logo-h2rs.png" alt="H2RS Logo" className="h-20 lg:h-24 w-auto object-contain" />
           </a>
 
           {/* Mobile Menu Button - Right */}
