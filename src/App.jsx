@@ -62,7 +62,7 @@ const App = () => {
             role: "Co-Founder & COO",
             bio: "Líder global em Transformação e enablement de RH, adoção e Customer Success com mais de 15 anos de mercado (ex-Degreed, Vale, Smurfit WestRock). Experiente em gerenciar inovações e transformar a jornada do colaborador escalando inteligência artificial.",
             linkedin: "https://www.linkedin.com/in/joaovechio/",
-            image: "/joao.png"
+            image: "/joao.jpg"
           }
         ]
       },
@@ -173,7 +173,7 @@ const App = () => {
             role: "Co-Founder & COO",
             bio: "Global HR transformation and enablement, adoption and Customer Success leader with 15+ years of experience (ex-Degreed, Vale). Focused on enterprise innovation and scaling employee journey transformation through Artificial Intelligence.",
             linkedin: "https://www.linkedin.com/in/joaovechio/",
-            image: "/joao.png"
+            image: "/joao.jpg"
           }
         ]
       },
@@ -235,7 +235,7 @@ const App = () => {
             role: "Co-Founder & COO",
             bio: "Líder global en Transformación y enablement de HHRR, adopción y Customer Success con más de 15 años de experiencia (ex-Degreed, Vale). Enfocado en escalar la innovación y transformar la experiencia del empleado usando IA.",
             linkedin: "https://www.linkedin.com/in/joaovechio/",
-            image: "/joao.png"
+            image: "/joao.jpg"
           }
         ]
       },
