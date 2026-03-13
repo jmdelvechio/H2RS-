@@ -47,7 +47,7 @@ const App = () => {
             name: "Amanda Celebroni",
             role: "Co-Founder & Co-CEO",
             bio: "Com mais de 15 anos de atuação global em Governança de TI e Qualidade (ex-Novartis), lidera estratégias de mitigação de riscos e garantia da qualidade em implementações corporativas complexas.",
-            linkedin: "https://www.linkedin.com/in/amanda-celebroni-432a68b5/",
+            linkedin: "https://www.linkedin.com/in/marcelo-martins-ramos/",
             image: "/amanda.jpg" // You can replace this with the exact filename if different
           },
           {
@@ -158,7 +158,7 @@ const App = () => {
             name: "Amanda Celebroni",
             role: "Co-Founder & Co-CEO",
             bio: "With over 15 years of global IT Governance and Quality experience (ex-Novartis), leads risk mitigation and quality assurance strategies in complex enterprise implementations.",
-            linkedin: "https://www.linkedin.com/in/amanda-celebroni-432a68b5/",
+            linkedin: "https://www.linkedin.com/in/marcelo-martins-ramos/",
             image: "/amanda.jpg"
           },
           {
@@ -220,7 +220,7 @@ const App = () => {
             name: "Amanda Celebroni",
             role: "Co-Founder & Co-CEO",
             bio: "Con más de 15 años de experiencia global en Gobierno y Calidad de TI (ex-Novartis), lidera estrategias de mitigación de riesgos y aseguramiento de calidad en implementaciones complejas.",
-            linkedin: "https://www.linkedin.com/in/amanda-celebroni-432a68b5/",
+            linkedin: "https://www.linkedin.com/in/marcelo-martins-ramos/",
             image: "/amanda.jpg"
           },
           {
