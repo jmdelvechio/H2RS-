@@ -54,7 +54,7 @@ const App = () => {
             name: "Marcelo Martins Ramos",
             role: "Co-Founder & Co-CEO",
             bio: "Executivo sênior com mais de 20 anos em Transformação de RH e Tecnologia (ex-IBM, Degreed e Santander). Especialista em ecossistemas Cloud, IA organizacional e estratégias de capital humano C-Level.",
-            linkedin: "https://www.linkedin.com/in/mmramos2406/",
+            linkedin: "https://www.linkedin.com/in/marcelo-martins-ramos/",
             image: "/marcelo.jpeg" 
           },
           {
@@ -165,7 +165,7 @@ const App = () => {
             name: "Marcelo Martins Ramos",
             role: "Co-Founder & Co-CEO",
             bio: "Senior executive with 20+ years in HR Transformation and Technology (ex-IBM, Degreed, Santander). Specialist in Cloud ecosystems, organizational AI, and C-Level human capital strategies.",
-            linkedin: "https://www.linkedin.com/in/mmramos2406/",
+            linkedin: "https://www.linkedin.com/in/marcelo-martins-ramos/",
             image: "/marcelo.png"
           },
           {
@@ -227,7 +227,7 @@ const App = () => {
             name: "Marcelo Martins Ramos",
             role: "Co-Founder & Co-CEO",
             bio: "Ejecutivo sénior con más de 20 años en Transformación de RRHH y Tecnología (ex-IBM, Degreed Santander). Especialista en ecosistemas Cloud, IA organizacional y estrategias C-Level.",
-            linkedin: "https://www.linkedin.com/in/mmramos2406/",
+            linkedin: "https://www.linkedin.com/in/marcelo-martins-ramos/",
             image: "/marcelo.png"
           },
           {
