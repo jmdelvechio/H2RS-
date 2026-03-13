@@ -281,11 +281,11 @@ const App = () => {
       
       {/* NAVBAR (Google Inspired Floating Pill) */}
       <nav className={`fixed w-full z-50 transition-all duration-500 ease-[cubic-bezier(0.25,1,0.5,1)] ${scrolled ? 'top-4' : 'top-6'}`}>
-        <div className="max-w-[1400px] mx-auto px-6 h-24 flex justify-between items-center relative">
+        <div className="max-w-[1400px] mx-auto px-6 h-36 flex justify-between items-center relative">
           
           {/* Logo on Left for Mobile, Hidden on Desktop */}
-          <a href="#" className="flex md:hidden items-center z-10 w-32" title="Início">
-            <img src="/logo-h2rs.png" alt="H2RS Logo" className="h-20 w-auto object-contain" />
+          <a href="#" className="flex md:hidden items-center z-10 w-36" title="Início">
+            <img src="/logo-h2rs.png" alt="H2RS Logo" className="h-[120px] w-auto object-contain" />
           </a>
           
           {/* Left spacer for Desktop symmetry relative to Logo */}
@@ -311,8 +311,8 @@ const App = () => {
           </div>
 
           {/* Separated Logo on Right (Google Layout) */}
-          <a href="#" className="hidden md:flex items-center justify-end z-10 hover:opacity-80 transition-opacity w-40" title="Início">
-            <img src="/logo-h2rs.png" alt="H2RS Logo" className="h-20 lg:h-24 w-auto object-contain" />
+          <a href="#" className="hidden md:flex items-center justify-end z-10 hover:opacity-80 transition-opacity w-48" title="Início">
+            <img src="/logo-h2rs.png" alt="H2RS Logo" className="h-[120px] lg:h-36 w-auto object-contain" />
           </a>
 
           {/* Mobile Menu Button - Right */}
@@ -559,7 +559,7 @@ const App = () => {
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-8 md:gap-12 mb-12 border-b border-slate-800 pb-12 md:pb-16">
           <div className="col-span-1 md:col-span-2">
             <a href="#" className="inline-block hover:opacity-90 transition-opacity">
-              <img src="/logo-h2rs.png" alt="H2RS Logo" className="h-16 w-auto object-contain mb-6 bg-white rounded-lg p-3" />
+              <img src="/h2rs_favicon.png" alt="H2RS Logo" className="h-16 w-auto object-contain mb-6 bg-white rounded-lg p-3" />
             </a>
             <p className="text-sm max-w-sm mb-6 leading-relaxed font-light text-slate-500">
               {t.footer.desc}
